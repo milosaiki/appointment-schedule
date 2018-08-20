@@ -1,0 +1,419 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+  /**
+  Obrisati na kraju
+  */
+  
+
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+
+.disabled a {
+  color: #a5a5a5 !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.appointment-schedule-form-holder .appointment-schedule-time-step-holder .appointment-schedule-month-holder .dateappointment-schedule-month-holder a:focus {
+  box-shadow: none !important;
+  text-decoration: none !important;
+  color: #fff;
+}
+
+.appointment-schedule-table {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.appointment-schedule-table > * {
+  display: table-cell;
+  vertical-align: top;
+  width: auto;
+}
+
+.appointment-schedule-form-holder .appointment-schedule-progress-tracker {
+  margin: 0 0 20px !important;
+  padding: 0 !important;
+}
+
+.appointment-schedule-form-holder .appointment-schedule-progress-tracker .appointment-schedule-progress {
+    display: table-cell;
+ }
+
+.appointment-schedule-form-holder .appointment-schedule-progress-tracker .appointment-schedule-progress .appointment-schedule-progress-tracker {
+  height: 15px;
+  background: #bec3c7;
+  margin-top: 5px;
+}
+
+.appointment-schedule-form-holder .appointment-schedule-progress-tracker > div:first-child .appointment-schedule-progress-tracker {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.appointment-schedule-form-holder .appointment-schedule-progress-tracker>div:last-child .appointment-schedule-progress-tracker {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.appointment-schedule-form-holder .appointment-schedule-progress-tracker .active .appointment-schedule-progress-tracker {
+  background-color: #08c !important;
+}
+
+.appointment-schedule-form-holder .appointment-schedule-progress-tracker .active p {
+  color: #08c !important;
+}
+
+.appointment-schedule-form-holder .appointment-schedule-progress-tracker .appointment-schedule-progress {
+  padding-left: 4px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.appointment-schedule-form-holder .appointment-schedule-progress-tracker .appointment-schedule-progress p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.appointment-schedule-form-holder {
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: inherit;
+}
+
+.appointment-schedule-form-holder .appointment-schedule-box {
+  margin: 0 0 20px;
+  overflow: hidden;
+}
+
+.appointment-schedule-month-holder .month-navigation {
+  font-size: 16px;
+}
+
+.appointment-schedule-month-holder .month-navigation span a {
+  font-size: 16px;
+  padding: 5px 7px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.appointment-schedule-month-holder .month-navigation span.appointment-schedule-year {
+  margin-right: 10px;
+}
+
+.appointment-schedule-month-holder .month-navigation span a,
+.appointment-schedule-month-holder .month-navigation span a:hover {
+  box-shadow: none !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.entry-header {
+  display: none;
+}
+
+.entry-content {
+  width: 100% !important;
+}
+
+.appointment-schedule-form-holder .appointment-schedule-month-holder {
+  margin: 0 20px 20px 0;
+  float: left;background-color: #08c;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px 5px;
+  width: 35%;
+}
+
+.appointment-schedule-month-holder table thead tr {
+  border-bottom: #fff;
+}
+
+.appointment-schedule-month-holder table thead tr th {
+  padding: 0 10px;
+  font-weight: 400;
+}
+
+.appointment-schedule-month-holder table tbody tr {
+  border-bottom: none;
+}
+
+.appointment-schedule-month-holder table tbody tr td {
+  text-align: center;
+  padding: 0 !important;
+  transition: all .6s;
+}
+
+.appointment-schedule-month-holder table tbody tr td a {
+  box-shadow: none;
+  display: block;
+  widows: 100%;
+  color: #fff;
+  margin: 5px 0;
+  transition: all .6s;
+}
+
+.appointment-schedule-month-holder table tbody tr td:hover {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.appointment-schedule-month-holder table tbody tr td:hover a {
+  color: #08c;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.appointment-schedule-month-holder .month-navigation {
+  text-align: center;
+}
+
+.appointment-schedule-month-holder  .today-date {
+  border: 1px solid rgba(255, 255, 255, .6);
+}
+
+.appointment-schedule-time-step-holder {
+  min-height: 300px;
+}
+
+.appointment-schedule-time-step-holder .appointment-schedule-time-step {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.appointment-schedule-time-step-holder .appointment-schedule-time-step .appointment-schedule-time-step-item {
+  padding: 5px 25px; 
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 5px;
+  margin: 5px 0;
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.appointment-schedule-time-step-holder .appointment-schedule-time-step .appointment-schedule-time-step-item:first-of-type {
+  width: 100%;
+}
+
+.appointment-schedule-time-step-holder .appointment-schedule-time-step .appointment-schedule-time-step-item.appointment-schedule-time-step-date {
+  text-align: center;
+  background-color: #08c;
+  color: #fff;
+}
+
+.appointment-schedule-time-step-holder .appointment-schedule-time-step .appointment-schedule-time-step-item.appointment-schedule-time-step-time:hover {
+  border-color: #08c;
+  cursor: pointer;
+}
+
+.appointment-schedule-form-holder .appointment-schedule-details-step,
+.appointment-schedule-form-holder .appointment-schedule-done-step {
+  display: none;
+}
+
+.appointment-schedule-btn-holder .buttons {
+  padding: 10px 40px;
+  box-shadow: none;
+  background: #08c;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.appointment-schedule-btn-holder .buttons:hover,
+.appointment-schedule-btn-holder .buttons:active,
+.appointment-schedule-btn-holder .buttons:visited,
+.appointment-schedule-btn-holder .buttons:focus {
+  text-decoration: none;
+  box-shadow: none;
+  color: #fff;
+}
+
+.appointment-schedule-btn-holder {
+  position: relative;
+}
+
+.appointment-schedule-btn-holder .back-button {
+  position: absolute;
+  left: 0;
+  display: none;
+}
+
+.appointment-schedule-btn-holder .next-button {
+  position: absolute;
+  right: 0;
+  display: none;
+}
+
+.appointment-schedule-form-group textarea {
+  resize: none;
+}
+
+.appointment-schedule-form-group label {
+  color: #08c;
+}
+
+.appointment-schedule-details-step .appointment-schedule-table:first-child {
+  margin-left: 0;
+}
+
+.appointment-schedule-details-step .appointment-schedule-table:last-child {
+  margin-right: 0;
+}
+
+.appointment-schedule-details-step .appointment-schedule-table .appointment-schedule-form-group {
+  padding-right: 20px;
+}
+
+.appointment-schedule-month-holder table tbody tr td.active-date {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.appointment-schedule-month-holder table tbody tr td.active-date a {
+  color: #08c;
+}
+
+.appointment-schedule-month-holder .appointment-schedule-month-name {
+  margin-left: 10px;
+}
+
+.spinner-holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 99;
+  display: none;
+}
+
+.lds-roller {
+  display: inline-block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+}
+
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 32px 32px;
+}
+
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -3px 0 0 -3px;
+}
+
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+
+.lds-roller div:nth-child(1):after {
+  top: 50px;
+  left: 50px;
+}
+
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+
+.lds-roller div:nth-child(2):after {
+  top: 54px;
+  left: 45px;
+}
+
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+
+.lds-roller div:nth-child(3):after {
+  top: 57px;
+  left: 39px;
+}
+
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+
+.lds-roller div:nth-child(4):after {
+  top: 58px;
+  left: 32px;
+}
+
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+
+.lds-roller div:nth-child(5):after {
+  top: 57px;
+  left: 25px;
+}
+
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+
+.lds-roller div:nth-child(6):after {
+  top: 54px;
+  left: 19px;
+}
+
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+
+.lds-roller div:nth-child(7):after {
+  top: 50px;
+  left: 14px;
+}
+
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+
+.lds-roller div:nth-child(8):after {
+  top: 45px;
+  left: 10px;
+}
+
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
